@@ -1,0 +1,48 @@
+# This template makefile is designed to build a set of files deployed with the Pack-N-Go mechanism.
+# This is specifically written for the example in FaceTrackingKLTpackNGoExample.m
+# 
+
+MAKEFILE = PASTE_MAKEFILE
+PRODUCT   = PASTE_EXE.exe
+TARGET_LANG_EXT  = c
+
+ADDITIONAL_LDFLAGS = PASTE_LDFLAGS
+ADDITIONAL_CFLAGS  = PASTE_CFLAGS
+
+CPP_REQ_DEFINES = PASTE_DEFINES
+
+CFLAGS   = $(cflags) $(cvarsmt) /wd4996 $(CC_OPTS)\
+	   $(CPP_REQ_DEFINES) /c
+CPPFLAGS = $(cflags) $(cvarsmt) /wd4996 /EHsc- \
+	   $(CC_OPTS) $(CPP_REQ_DEFINES)
+LDFLAGS  = $(ldebug) $(conflags) $(conlibs) libcpmt.lib $(ADDITIONAL_LDFLAGS)
+
+
+#----------------------------- Source Files -----------------------------------
+
+SRCS = *.$(TARGET_LANG_EXT)
+
+OBJS_CPP_UPPER = $(SRCS:.CPP=.obj)
+OBJS_CPP_LOWER = $(OBJS_CPP_UPPER:.cpp=.obj)
+OBJS_C_UPPER = $(OBJS_CPP_LOWER:.C=.obj)
+OBJS = $(OBJS_C_UPPER:.c=.obj)
+
+
+# ------------------------- Additional Libraries ------------------------------
+
+LIBS = PASTE_LIB
+
+# -------------------------- Rules ---------------------------------------------
+
+all: $(PRODUCT)
+
+$(PRODUCT) : $(OBJS) $(LIBS)
+	@cmd /C "echo ### Linking ... "
+	link $(LDFLAGS)  $(LIBS) $(OBJS) -out:$@
+	@cmd /C "echo $(BUILD_SUCCESS) executable $(PRODUCT)"
+
+.c.obj :
+       @cmd /C "echo ### Compiling $<"
+       $(CC) $(CFLAGS) -I$(MAKEDIR) $<
+
+$(OBJS) : $(MAKEFILE)

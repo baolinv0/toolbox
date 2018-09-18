@@ -1,0 +1,129 @@
+%% 
+%% 
+%% 
+%%
+%% Copyright 1995-2005 The MathWorks, Inc.
+%%
+
+
+%addincludepath "../../../../shared/dsp/vision/matlab/utilities/mex/tlc_c"
+%include "spclib.tlc"
+%include "spcfixptlib.tlc"
+%include "spc_intbounds.tlc"
+
+%% Function: VIPAddToFile ==================================================
+%% Abstract:
+%%   Write out the function code cache for outputs, updates, etc.
+%%
+%function VIPAddToFile(fcnbuffer, fcnName) void
+
+   %assign rsimGenCPP = CompiledModel.ConfigSet.TargetLang == "C++"
+   %if rsimGenCPP
+     %assign extCppOrC = "cpp"
+   %else
+     %assign extCppOrC = "c"
+   %endif     
+   %assign fileroot = "%<::CompiledModel.Name>_%<fcnName>_vip"
+   %assign fileDotC = "%<fileroot>.%<extCppOrC>"
+   %assign fileDotH = "%<fileroot>.h"
+   %assign fileName = "_MODEL_%<fcnName>_VIP_C_"
+
+    %if %<JustCreatedCompiledModelRecord(fileName)>
+
+        %openfile topbuffer
+           /*
+            * %<fileDotC>
+            *
+            * Computer Vision System Toolbox function calls
+            %with CompiledModel
+                %<SLibCommonHeaderInfo()>\
+            %endwith
+            */
+
+            #include "%<fileDotH>"
+
+        %closefile topbuffer
+
+        %<LibAddToFile(fileDotC, topbuffer)>
+
+        %% This adds file to list of sources to build
+        %<LibAddToModelSources(fileroot)>
+
+    %endif
+
+    %<LibAddToFile(fileDotC, fcnbuffer)>
+
+%endfunction %% VIPAddToFile
+
+
+%% Function: VIPAddToFileHeader =================================================
+%% Abstract:
+%%   Write out the function code cache for outputs, updates, etc.
+%%
+%function VIPAddToFileHeader(buffer,fcnName) void
+
+   %assign fileDotH = "%<::CompiledModel.Name>_%<fcnName>_vip.h"
+   %assign fileName = "_MODEL_%<fcnName>_VIP_H_"
+    %if %<JustCreatedCompiledModelRecord(fileName)>
+
+        %openfile topbuffer
+       /*
+        * %<fileDotH>
+        *
+        * Computer Vision System Toolbox function calls
+        %with CompiledModel
+            %<SLibCommonHeaderInfo()>\
+        %endwith
+        */
+
+        #include "dsp_rt.h" /* Computer Vision System Toolbox general run time support functions */
+        %%
+        %% Embedded C-format uses different simstruct 
+        %% definition and different macros to access it.
+        %%
+        %if CodeFormat == "Embedded-C"
+            %% #include "ertformat.h"
+            %% #include "%<ExportHeaderFile()>"
+
+        %else
+	  %%
+	  %% xxx(Mani) - 
+	  %% Below, we would like to have an extern declaration of an rtModel
+	  %% To avoid dependencies between two large jobs, we are currently 
+	  %% doing this with a lot of special code. Ultimately, we should 
+	  %% be able to replace all of it with a call to a library function.
+	  %% The call would be 
+	  %%   %<RTMAddExternRTModelDecl()>
+	  %%
+	  %if EXISTS(GenRTModel) && GenRTModel
+	    #include "%<CompiledModel.Name>.h"
+	    
+	    extern %<tSimStructType> *const %<tSimStruct>;
+	  %else
+	    #include "simstruc.h"
+	    
+	    extern SimStruct *const %<tSimStruct>;
+	  %endif
+        %endif
+        %closefile topbuffer
+
+        %<LibAddToFile(fileDotH, topbuffer)>
+
+        %% Add include line to model_common.h file
+        %openfile includebuffer
+            /* Computer Vision System Toolbox header for extern functions */
+            #include "%<fileDotH>"
+
+        %closefile includebuffer
+
+        %<LibCacheFunctionPrototype(includebuffer)>
+
+    %endif
+
+    %<LibAddToFile(fileDotH, buffer)>
+
+%endfunction %% VIPAddToFileHeader
+
+
+
+%% [EOF] viplib.tlc

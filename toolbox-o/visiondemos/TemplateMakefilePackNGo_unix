@@ -1,0 +1,28 @@
+# This template makefile is designed to build a set of files deployed with the Pack-N-Go mechanism.
+# This is specifically written for the example in FaceTrackingKLTpackNGoExample.m
+#
+
+
+CC   := PASTE_CC
+
+C_FILES   = $(wildcard *.c)
+HDR_FILES = $(wildcard *.h) $(wildcard *.hpp)
+ZIP_FILES = $(wildcard *.zip)
+INC_DIR := -I./
+
+OBJ_EXT  := .o
+
+OUT_FLAG := -o
+
+DEFINES  := PASTE_DEFINES
+CFLAGS   := PASTE_CFLAGS
+LINK_FLAGS := PASTE_LDFLAGS
+LIBS := PASTE_LIB
+
+FLAGS     = $(DEFINES) $(CFLAGS) $(LINK_FLAGS) $(LIBS) $(INC_DIR)
+
+PASTE_EXE : 	
+	$(CC) $(FLAGS) *.c $(OUT_FLAG) $@
+
+clean: 
+	-rm -rf $(C_FILES) $(HDR_FILES) *$(OBJ_EXT) buildInfo.mat defines.txt *~

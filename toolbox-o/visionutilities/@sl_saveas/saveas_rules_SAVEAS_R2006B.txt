@@ -1,0 +1,300 @@
+<Block<SourceBlock|"vipobslib/Apply Geometric\nTransformation":repval "visiongeotforms/Apply Geometric\nTransformation">>
+<Block<SourceBlock|visiontextngfix/Draw Shapes><lineWidth:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><videoQuality:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><mj2000CompFactor:remove>>
+<Block<SourceBlock|visionsinks/Video Viewer><DefaultConfigurationName:remove>>
+<Block<SourceBlock|"dspvision/From Multimedia File":repval "dspsrcs4/From Multimedia File">>
+<Block<SourceBlock|"dspvision/To Multimedia File":repval "dspsnks4/To Multimedia File">>
+<Block<SourceBlock|"visionstatistics/2-D Minimum":repval "dspstat3/Minimum">>
+<Block<SourceBlock|"visionstatistics/2-D Maximum":repval "dspstat3/Maximum">>
+<Block<SourceBlock|"visionstatistics/2-D Mean":repval "dspstat3/Mean">>
+<Block<SourceBlock|"visionstatistics/2-D Median":repval "dspstat3/Median">>
+<Block<SourceBlock|"visionstatistics/2-D Standard\nDeviation":repval "dspstat3/Standard\nDeviation">>
+<Block<SourceBlock|"visionstatistics/2-D Variance":repval "dspstat3/Variance">>
+<Block<SourceBlock|"visionstatistics/2-D Histogram":repval "dspstat3/Histogram">>
+<Block<SourceBlock|"dspvision/From Multimedia File"><outSamplingMode:remove>>
+<Block<SourceBlock|"visionsources/Video From Workspace":repval "vipsrcs/Video From Workspace">>
+<Block<SourceBlock|"visionsources/Image From Workspace":repval "vipsrcs/Image From Workspace">>
+<Block<SourceBlock|"visionsources/From Multimedia File":repval "vipsrcs/From Multimedia File">>
+<Block<SourceBlock|"visionsources/Image From File":repval "vipsrcs/Image From File">>
+<Block<SourceBlock|"visionsources/Read Binary File":repval "vipsrcs/Read Binary File">>
+<Block<SourceBlock|"visionsinks/Video Viewer":repval "vipsnks/Video Viewer">>
+<Block<SourceBlock|"visionsinks/Video To Workspace":repval "vipsnks/Video To Workspace">>
+<Block<SourceBlock|"visionsinks/Write Binary File":repval "vipsnks/Write Binary File">>
+<Block<SourceBlock|"visionsinks/To Video Display":repval "vipsnks/To Video Display">>
+<Block<SourceBlock|"visionsinks/To Multimedia File":repval "vipsnks/To Multimedia File">>
+<Block<SourceBlock|"visionsinks/Frame Rate\nDisplay":repval "vipsnks/Frame Rate\nDisplay">>
+<Block<SourceBlock|"visionanalysis/Histogram\nEqualization":repval "vipanalysis/Histogram\nEqualization">>
+<Block<SourceBlock|"visionanalysis/Edge Detection":repval "vipanalysis/Edge Detection">>
+<Block<SourceBlock|"visionanalysis/Block Matching":repval "vipanalysis/Block Matching">>
+<Block<SourceBlock|"visionanalysis/Median Filter":repval "vipanalysis/Median Filter">>
+<Block<SourceBlock|"visionanalysis/Contrast Adjustment":repval "vipanalysis/Contrast Adjustment">>
+<Block<SourceBlock|"visionanalysis/Optical Flow":repval "vipanalysis/Optical Flow">>
+<Block<SourceBlock|"visionanalysis/Deinterlacing":repval "vipanalysis/Deinterlacing">>
+<Block<SourceBlock|"visionconversions/Color Space\n Conversion":repval "vipconversions/Color Space\n Conversion">>
+<Block<SourceBlock|"visionconversions/Chroma\nResampling":repval "vipconversions/Chroma\nResampling">>
+<Block<SourceBlock|"visionconversions/Autothreshold":repval "vipconversions/Autothreshold">>
+<Block<SourceBlock|"visionconversions/Gamma Correction":repval "vipconversions/Gamma Correction">>
+<Block<SourceBlock|"visionconversions/Image Complement":repval "vipconversions/Image Complement">>
+<Block<SourceBlock|"visionconversions/Demosaic":repval "vipconversions/Demosaic">>
+<Block<SourceBlock|"visionconversions/Image Data Type\nConversion":repval "vipconversions/Image Data Type\nConversion">>
+<Block<SourceBlock|"visionfilter/2-D FIR Filter":repval "vipfilter/2-D FIR Filter">>
+<Block<SourceBlock|"visionfilter/2-D Convolution":repval "vipfilter/2-D Convolution">>
+<Block<SourceBlock|"visionfilter/Median Filter":repval "vipfilter/Median Filter">>
+<Block<SourceBlock|"visionfilter/Kalman Filter":repval "vipfilter/Kalman Filter">>
+<Block<SourceBlock|"visiongeotforms/Rotate":repval "vipgeotforms/Rotate">>
+<Block<SourceBlock|"visiongeotforms/Translate":repval "vipgeotforms/Translate">>
+<Block<SourceBlock|"visiongeotforms/Shear":repval "vipgeotforms/Shear">>
+<Block<SourceBlock|"visionmorphops/Dilation":repval "vipmorphops/Dilation">>
+<Block<SourceBlock|"visionmorphops/Erosion":repval "vipmorphops/Erosion">>
+<Block<SourceBlock|"visionmorphops/Top-hat":repval "vipmorphops/Top-hat">>
+<Block<SourceBlock|"visionmorphops/Opening":repval "vipmorphops/Opening">>
+<Block<SourceBlock|"visionmorphops/Closing":repval "vipmorphops/Closing">>
+<Block<SourceBlock|"visionmorphops/Bottom-hat":repval "vipmorphops/Bottom-hat">>
+<Block<SourceBlock|"visionmorphops/Label":repval "vipmorphops/Label">>
+<Block<SourceBlock|"visionstatistics/PSNR":repval "vipstatistics/PSNR">>
+<Block<SourceBlock|"visionstatistics/2-D Autocorrelation":repval "vipstatistics/2-D Autocorrelation">>
+<Block<SourceBlock|"visionstatistics/2-D Correlation":repval "vipstatistics/2-D Correlation">>
+<Block<SourceBlock|"visiontransforms/2-D FFT":repval "viptransforms/2-D FFT">>
+<Block<SourceBlock|"visiontransforms/2-D DCT":repval "viptransforms/2-D DCT">>
+<Block<SourceBlock|"visiontransforms/2-D IDCT":repval "viptransforms/2-D IDCT">>
+<Block<SourceBlock|"visiontransforms/Hough Transform":repval "viptransforms/Hough Transform">>
+<Block<SourceBlock|"visiontransforms/Gaussian\nPyramid":repval "viptransforms/Gaussian\nPyramid">>
+<Block<SourceBlock|"visionutilities/Image Pad":repval "viputilities/Image Pad">>
+<Block<SourceBlock|"viptransforms/2-D FFT"><FFTImplementation:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><FFTImplementation:remove>>
+<Block<SourceBlock|"vipmisc/Iteration count"><NumI:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><firstCoeffMin:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><firstCoeffMax:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><firstCoeffSignedness:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><outputMin:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><outputMax:remove>>
+<Block<SourceBlock|"vipfilter/2-D FIR Filter"><outputSignedness:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><outputMode:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><accumMode:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><InputProcessing:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><InputProcessing:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><InputProcessing:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><InputProcessing:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><InputProcessing:remove>>
+<Block<SourceBlock|"vipgeotforms/Estimate Geometric\nTransformation"><outDT4IntInput:remove><outDT4IntInputActive:rename outDT4IntInput>>
+<Block<SourceBlock|"vipgeotforms/Estimate Geometric\nTransformation"><isVarSizeAllowed:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><outputMin:remove>>
+<Block<SourceBlock|"viptransforms/2-D FFT"><outputMax:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><outputMin:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT"><outputMax:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><outputMin:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><outputMax:remove>>
+<Block<SourceBlock|"viptransforms/2-D IFFT/2D IFFT"><LockScale:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><outputMin:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><outputMax:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><firstCoeffDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><firstCoeffLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><outputMin:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><outputMax:remove>>
+<Block<SourceBlock|"vipobslib/SAD":repval "vipanalysis/SAD">>
+<Block<SourceBlock|"vipstatistics/Blob Analysis"><Tag|vipblks_row_conv:remove>>
+<Block<SourceBlock|"vipstatistics/Find Local Maxima"><src_thresh:remove><src_thresh_inuse:rename src_thresh>>
+<Block<SourceBlock|"vipstatistics/Find Local Maxima"><isOutVarDim:remove>>
+<Block<SourceBlock|"vipanalysis/Corner Detection"><output:remove><outputInUse:rename output>>
+<Block<SourceBlock|"vipanalysis/Corner Detection"><isOutVarDim:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><outputMin:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><outputMax:remove>>
+<Block<SourceBlock|"dspstat3/Median"><prodOutputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><prodOutputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><accumDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><accumLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><outputDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><outputLastDataTypeStr:remove>>
+<Block<SourceBlock|"dspstat3/Median"><outputMin:remove>>
+<Block<SourceBlock|"dspstat3/Median"><outputMax:remove>>
+<Block<SourceBlock|"vipsnks/Video Viewer"><OpenAtMdlStart:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><fillClrSource:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><accumMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><accumWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><accumFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><prodOutputMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><prodOutputWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><prodOutputFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><memoryMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><memoryWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><memoryFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><roundingMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><overflowMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><LockScale:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><fillClrSource:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><accumMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><accumWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><accumFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><prodOutputMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><prodOutputWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><prodOutputFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><memoryMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><memoryWordLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><memoryFracLength:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><roundingMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><overflowMode:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><LockScale:remove>>
+<Block<SourceBlock|"vipsnks/To Video Display"><isWindowOpen:remove>>
+<Block<SourceBlock|"vipsnks/To Video Display"><openAtMdlStart:remove>>
+<Block<SourceType|"2-D IFFT "><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D IFFT "><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D IFFT "><SkipNorm|on:repval aa><SourceType|"2-D IFFT "><SkipNorm|off:repval on><SourceType|"2-D IFFT "><SkipNorm|aa:repval off>>
+<Block<SourceType|"2-D FFT"><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D FFT"><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D FFT"><SkipNorm|off:repval aa><SourceType|"2-D FFT"><SkipNorm|on:repval off><SourceType|"2-D FFT"><SkipNorm|aa:repval on>>
+<Block<SourceBlock|"dspstat3/Minimum"><roiEnable:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><roiType:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><roiPortion:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><roiOutput:remove>>
+<Block<SourceBlock|"dspstat3/Minimum"><roiFlag:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><roiEnable:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><roiType:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><roiPortion:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><roiOutput:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><roiFlag:remove>>
+<Block<SourceBlock|"vipobslib/2-D Mean"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipstatistics/2-D Mean"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipobslib/2-D Standard\nDeviation"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipstatistics/2-D Standard\nDeviation"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipobslib/2-D Variance"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipstatistics/2-D Variance"><directionMode:remove><dimension:remove>>
+<Block<SourceBlock|"vipobslib/2-D Histogram"><operateOver:remove><Dimension:remove><colComp:remove>>
+<Block<SourceBlock|"vipstatistics/2-D Histogram"><operateOver:remove><Dimension:remove><colComp:remove>>
+<Block<SourceBlock|"vipobslib/2-D Median"><directionMode:remove><dimension:remove><additionalParams:remove><allowOverrides:remove>>
+<Block<SourceBlock|"vipstatistics/2-D Median"><directionMode:remove><dimension:remove><additionalParams:remove><allowOverrides:remove>>
+<Block<SourceBlock|"vipobslib/2-D Mean":repval "vipstatistics/2-D Mean">>
+<Block<SourceBlock|"vipobslib/2-D Standard\nDeviation":repval "vipstatistics/2-D Standard\nDeviation">>
+<Block<SourceBlock|"vipobslib/2-D Variance":repval "vipstatistics/2-D Variance">>
+<Block<SourceBlock|"vipobslib/2-D Median":repval "vipstatistics/2-D Median">>
+<Block<SourceBlock|"vipobslib/2-D Histogram":repval "vipstatistics/2-D Histogram">>
+<Block<SourceBlock|"dspstat3/Histogram"><operateOver:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><Dimension:remove>>
+<Block<SourceBlock|"dspstat3/Histogram"><colComp:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><directionMode:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><treatSBRowAsCol:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><dimension:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><roiEnable:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><roiType:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><roiPortion:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><roiOutput:remove>>
+<Block<SourceBlock|"dspstat3/Mean"><roiFlag:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><directionMode:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><treatSBRowAsCol:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><dimension:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><roiEnable:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><roiType:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><roiPortion:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><roiOutput:remove>>
+<Block<SourceBlock|"dspstat3/Standard\nDeviation"><roiFlag:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><directionMode:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><treatSBRowAsCol:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><dimension:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><roiEnable:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><roiType:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><roiPortion:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><roiOutput:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><roiFlag:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><memoryMode:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><memoryWordLength:remove>>
+<Block<SourceBlock|"dspstat3/Variance"><memoryFracLength:remove>>
+<Block<SourceBlock|"dspstat3/Median"><directionMode:remove>>
+<Block<SourceBlock|"dspstat3/Median"><dimension:remove>>
+<Block<SourceBlock|"dspstat3/Median"><treatSBRowAsCol:remove>>
+<Block<SourceBlock|"vipanalysis/Optical Flow"><gradMethod:remove><numInports:remove><sigmaS:remove><sigmaW:remove><discardNormalFlow:remove><outputCurrentImage:remove><firstCoeffMode:remove><firstCoeffWordLength:remove><firstCoeffFracLength:remove><prodOutputMode:remove><prodOutputWordLength:remove><prodOutputFracLength:remove><accumMode:remove><accumWordLength:remove><accumFracLength:remove><memoryMode:remove><memoryWordLength:remove><memoryFracLength:remove><outputMode:remove><outputWordLength:remove><outputFracLength:remove><roundingMode:remove><overflowMode:remove><LockScale:remove>>
+<Block<SourceBlock|"vipanalysis/Optical Flow/Optical Flow Estimation"><gradMethod:remove><numInports:remove><sigmaS:remove><sigmaW:remove><discardNormalFlow:remove><outputCurrentImage:remove><firstCoeffMode:remove><firstCoeffWordLength:remove><firstCoeffFracLength:remove><prodOutputMode:remove><prodOutputWordLength:remove><prodOutputFracLength:remove><accumMode:remove><accumWordLength:remove><accumFracLength:remove><memoryMode:remove><memoryWordLength:remove><memoryFracLength:remove><outputMode:remove><outputWordLength:remove><outputFracLength:remove><roundingMode:remove><overflowMode:remove><LockScale:remove>>
+<Block<SourceBlock|"viptextngfix/Insert Text"><isInputTransposed:remove>>
+<Block<SourceBlock|"vipanalysis/Deinterlacing"><isInputTransposed:remove>>
+<Block<SourceBlock|"vipconversions/Chroma\nResampling"><isInputTransposed:remove>>
+<Block<SourceBlock|"vipstatistics/Blob Analysis"><isOutVarDim:remove>>
+<Block<SourceBlock|"viptransforms/2-D DCT"><Dimension:remove>>
+<Block<SourceBlock|"viptransforms/2-D IDCT"><Dimension:remove>>
+<Block<SourceBlock|"vipsnks/Video Viewer"><inputType|"Obsolete7b"><inputType:repval "Obsolete">>
+<Block<SourceBlock|vipobslib/Write AVI File:repval vipsnks/Write AVI File>>
+<Block<SourceBlock|"dspstat3/Minimum"><Dimension:remove>>
+<Block<SourceBlock|"dspstat3/Maximum"><Dimension:remove>>
+<Block<SourceBlock|"vipsrcs/Video From Workspace"><imagePorts:remove><finaloutActive:remove>>
+<Block<SourceBlock|"vipsrcs/Image From Workspace"><imagePorts:remove>>
+<Block<SourceBlock|"dspwin32/From Multimedia File"><colorVideoFormat:remove><dataOrg:remove>>
+<Block<SourceBlock|"dspsrcs4/From Multimedia File"><colorVideoFormat:remove><dataOrg:remove>>
+<Block<SourceBlock|"vipsrcs/Image From File"><imagePorts:remove>>
+<Block<SourceBlock|"vipsnks/Video Viewer"><imagePorts|"One multidimensional signal"><inputType:repval "Intensity">>
+<Block<SourceBlock|"vipsnks/Video Viewer"><imagePorts|"Separate color signals"><inputType:repval "RGB">>
+3<Block<SourceBlock|"vipsnks/Video Viewer"><imagePorts:remove>>
+<Block<SourceBlock|"vipsnks/To Video Display"><imagePorts:remove><dataOrg:remove>>
+<Block<SourceBlock|"dspwin32/To Multimedia File"><imagePorts:remove>>
+<Block<SourceBlock|"dspsnks4/To Multimedia File"><imagePorts:remove>>
+<Block<SourceBlock|"vipsnks/Write AVI File"><imagePorts:remove>>
+<Block<SourceBlock|"vipobslib/Write AVI File"><imagePorts:remove>>
+<Block<SourceBlock|"viputilities/Image Pad"><outRowsMode:remove><outColsMode:remove><trunc_flag:remove>>
+<Block<SourceBlock|"vipconversions/Color Space\n Conversion"><imagePorts:remove><conversion:remove><conversionActive:rename conversion>>
+<Block<SourceBlock|"vipconversions/Demosaic"><imagePorts:remove><algorithmActive:remove>>
+<Block<SourceBlock|"viptextngfix/Insert Text"><imagePorts:remove>>
+<Block<SourceBlock|"viptextngfix/Insert Text"><NumPercent:remove>>
+<Block<SourceBlock|"viptextngfix/Insert Text"><convSpec:remove>>
+<Block<SourceBlock|"vipgeotforms/Projective\nTransformation"><imagePorts:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Shapes"><imagePorts:remove>>
+<Block<SourceBlock|"viptextngfix/Draw Markers"><imagePorts:remove>>
+<Block<SourceBlock|"viputilities/Image Pad":repval "viputilities/2-D Pad">>

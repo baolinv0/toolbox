@@ -1,0 +1,15 @@
+<Block<SourceBlock|"vipobslib/Apply Geometric\nTransformation":repval "visiongeotforms/Apply Geometric\nTransformation">>
+<Block<SourceBlock|visiontextngfix/Draw Shapes><lineWidth:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><videoQuality:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><mj2000CompFactor:remove>>
+<Block<SourceBlock|visionsinks/Video Viewer><DefaultConfigurationName:remove>>
+<Block<SourceBlock|"dspvision/From Multimedia File":repval "dspsrcs4/From Multimedia File">>
+<Block<SourceBlock|"dspvision/To Multimedia File":repval "dspsnks4/To Multimedia File">>
+<Block<SourceBlock|"visionstatistics/2-D Minimum":repval "dspstat3/Minimum">>
+<Block<SourceBlock|"visionstatistics/2-D Maximum":repval "dspstat3/Maximum">>
+<Block<SourceBlock|"visionstatistics/2-D Mean":repval "dspstat3/Mean">>
+<Block<SourceBlock|"visionstatistics/2-D Median":repval "dspstat3/Median">>
+<Block<SourceBlock|"visionstatistics/2-D Standard\nDeviation":repval "dspstat3/Standard\nDeviation">>
+<Block<SourceBlock|"visionstatistics/2-D Variance":repval "dspstat3/Variance">>
+<Block<SourceBlock|"visionstatistics/2-D Histogram":repval "dspstat3/Histogram">>
+<Block<SourceBlock|"dspvision/From Multimedia File"><outSamplingMode:remove>>

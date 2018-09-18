@@ -1,0 +1,5 @@
+<Block<SourceBlock|"vipobslib/Apply Geometric\nTransformation":repval "visiongeotforms/Apply Geometric\nTransformation">>
+<Block<SourceBlock|visiontextngfix/Draw Shapes><lineWidth:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><videoQuality:remove>>
+<Block<SourceBlock|dspvision/To Multimedia File><mj2000CompFactor:remove>>
+<Block<SourceBlock|visionsinks/Video Viewer><DefaultConfigurationName:remove>>

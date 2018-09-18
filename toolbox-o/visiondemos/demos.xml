@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<demos>
+   <name>Computer Vision System</name>
+   <type>toolbox</type>
+   <icon>$toolbox/matlab/icons/matlabicon.gif</icon>
+   <description isCdata="no">
+<p>Computer Vision System Toolbox&#8482; provides algorithms 
+and tools for the design and simulation of video processing, image 
+processing, and computer vision systems.  You can process video and 
+image data to solve problems such as noise, low contrast, 
+out-of-focus optics, and artifacts resulting from interlaced video. 
+You can then perform tasks such as motion analysis, object detection 
+and tracking, video stabilization, and disparity estimation for 
+stereo vision.  Most algorithms and tools are available as both System 
+objects (for use in MATLAB&#174;) and blocks (for use in Simulink&#174;).</p>
+   </description>
+
+<demosection>
+  <label>MATLAB Examples</label>
+
+    <demosection>
+       <label>Object Detection and Recognition</label>
+       <demoitem>
+         <label>Automatically Detect and Recognize Text in Natural Images</label>
+         <source>TextDetectionExample</source>
+         <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Detecting Cars Using Gaussian Mixture Models</label>
+          <source>videotrafficgmm</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Object Detection in a Cluttered Scene Using Point Feature Matching</label>
+          <source>FeatureBasedObjectDetectionExample</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+         <label>Digit Classification Using HOG Features</label>
+         <source>HOGDigitClassificationExample</source>
+         <type>M-file</type>
+         <dependency>Statistics and Machine Learning Toolbox</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Image Category Classification Using Bag of Features</label>
+          <source>ImageCategoryClassificationExample</source>
+          <type>M-file</type>
+          <dependency>Statistics and Machine Learning Toolbox</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Image Retrieval Using Customized Bag of Features</label>
+          <source>ImageRetrievalExample</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Pattern Matching</label>
+          <source>videopatternmatching</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Recognize Text Using Optical Character Recognition (OCR)</label>
+          <source>OCRExample</source>
+          <type>M-file</type>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Tracking</label>
+       <demoitem>
+          <label>Face Detection and Tracking Using CAMShift</label>
+          <source>visionfacetracking</source>
+          <type>M-file</type>
+       </demoitem>       
+       <demoitem>
+          <label>Face Detection and Tracking Using the KLT Algorithm</label>
+          <source>FaceTrackingUsingKLTExample</source>
+          <type>M-file</type>
+       </demoitem>       
+       <demoitem>
+          <label>Face Detection and Tracking Using Live Video Acquisition</label>
+          <source>FaceTrackingWebcamExample</source>
+          <type>M-file</type>
+       </demoitem>       
+       <demoitem>
+          <label>Lane Departure Warning System</label>
+          <source>videoldws</source>
+          <type>M-file</type>
+       </demoitem>      
+       <demoitem>
+          <label>Motion-Based Multiple Object Tracking</label>
+          <source>multiObjectTracking</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Tracking Pedestrians from a Moving Car</label>
+          <source>PedestrianTrackingFromMovingCameraExample</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Using Kalman Filter for Object Tracking</label>
+          <source>kalmanFilterForTracking</source>
+          <type>M-file</type>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+      <label>Registration</label>
+      <demoitem>
+          <label>Find Image Rotation and Scale Using Automated Feature Matching</label>
+          <source>visionrecovertform</source>
+          <type>M-file</type>
+      </demoitem>
+      <demoitem>
+          <label>Feature Based Panoramic Image Stitching</label>
+          <source>FeatureBasedPanoramicImageStitchingExample</source>
+          <type>M-file</type>
+      </demoitem>
+      <demoitem>
+          <label>Video Stabilization</label>
+          <source>videostabilize</source>
+          <type>M-file</type>
+       </demoitem>   
+       <demoitem>
+          <label>Video Stabilization Using Point Feature Matching</label>
+          <source>videostabilize_pm</source>
+          <type>M-file</type>
+       </demoitem>   
+    </demosection>
+    
+     <demosection>
+       <label>Camera Calibration and 3-D Vision</label>
+         <demoitem>
+          <label>Evaluating the Accuracy of Single Camera Calibration</label>
+          <source>EvaluatingCameraCalibrationExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>Measuring Planar Objects with a Calibrated Camera</label>
+          <source>MeasuringPlanarObjectsExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>Stereo Calibration and Scene Reconstruction</label>
+          <source>StereoCalibrationAndSceneReconstructionExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>Depth Estimation From Stereo Video</label>
+          <source>DepthEstimationFromStereoVideoExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>Structure From Motion From Two Views</label>
+          <source>StructureFromMotionExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>3-D Point Cloud Registration and Stitching</label>
+          <source>StitchPointCloudsExample</source>
+          <type>M-file</type>
+         </demoitem>
+         <demoitem>
+          <label>Uncalibrated Stereo Image Rectification</label>
+          <source>UncalibratedStereoRectificationExample</source>
+          <type>M-file</type>
+         </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Analysis</label>
+       <demoitem>
+          <label>Cell Counting</label>
+          <source>videocellcounting</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Object Counting</label>
+          <source>videostaples</source>
+          <type>M-file</type>
+       </demoitem>
+       <demoitem>
+          <label>Text Rotation Correction</label>
+          <source>videorotationcorrection</source>
+          <type>M-file</type>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+      <label>Display and Graphics</label>
+      <demoitem>
+        <label>Video Display in a Custom User Interface</label>
+        <source>VideoInCustomGUIExample</source>
+        <type>M-file</type>
+      </demoitem>
+    </demosection>
+  
+   <demosection>
+      <label>Code Generation</label>
+      <demoitem>
+        <label>Introduction to Code Generation with Feature Matching and Registration</label>
+        <type>M-file</type>
+        <source>VisionRecovertformCodeGenerationExample</source>
+        <dependency>MATLAB Coder</dependency>
+      </demoitem>
+     <demoitem>
+       <label>Code Generation for Face Tracking with PackNGo</label>
+       <type>M-file</type>
+       <source>FaceTrackingKLTpackNGoExample</source>
+       <dependency>MATLAB Coder</dependency>
+     </demoitem>     
+     <demoitem>
+       <label>Code Generation for Depth Estimation From Stereo Video</label>
+       <type>M-file</type>
+       <source>DepthEstimationFromStereoVideoCodeGenerationExample</source>
+       <dependency>MATLAB Coder</dependency>
+     </demoitem>     
+   </demosection>
+
+  </demosection>    
+
+  <demosection>
+    <label>Simulink Examples</label>
+
+    <demosection>
+       <label>Analysis</label>
+       <demoitem>
+          <label>Cell Counting</label>
+          <source>vipcellcounting</source>
+          <file>html/vipcellcounting.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Concentricity Inspection</label>
+          <source>vipconcentricity</source>
+          <file>html/vipconcentricity.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Object Counting</label>
+          <source>vipstaples</source>
+          <file>html/vipstaples.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Video Focus Assessment</label>
+          <source>vipfocus</source>
+          <file>html/vipfocus.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Compression</label>
+       <demoitem>
+          <label>Video Compression</label>
+          <source>vipcodec</source>
+          <file>html/vipcodec.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Detection and Recognition</label>
+       <demoitem>
+          <label>Barcode Recognition</label>
+          <source>vipbarcoderecognition</source>
+          <file>html/vipbarcoderecognition.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Motion Detection</label>
+          <source>vipmotion</source>
+          <file>html/vipmotion.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Pattern Matching</label>
+          <source>vippattern</source>
+          <file>html/vippattern.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Scene Change Detection</label>
+          <source>vipscenechange</source>
+          <file>html/vipscenechange.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Surveillance Recording</label>
+          <source>vipsurveillance</source>
+          <file>html/vipsurveillance.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Traffic Warning Sign Recognition</label>
+          <source>vipwarningsigns</source>
+          <file>html/vipwarningsigns.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Tracking</label>
+       <demoitem>
+          <label>Abandoned Object Detection</label>
+          <source>vipabandonedobj</source>
+          <file>html/vipabandonedobj.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Color-based Road Tracking</label>
+          <source>vipunmarkedroad</source>
+          <file>html/vipunmarkedroad.html</file>
+          <type>model</type>
+          <dependency>DSP System Toolbox, Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Lane Departure Warning System</label>
+          <source>vipldws</source>
+          <file>html/vipldws.html</file>
+          <type>model</type>
+          <dependency>DSP System Toolbox, Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Tracking Cars Using Foreground Detection</label>
+          <source>viptraffic</source>
+          <file>html/viptraffic.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Tracking Cars Using Optical Flow</label>
+          <source>viptrafficof</source>
+          <file>html/viptrafficof.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Tracking Based on Color</label>
+          <source>vipcolorsegmentation</source>
+          <file>html/vipcolorsegmentation.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+       <label>Registration</label>       
+       <demoitem>
+          <label>Video Mosaicking</label>
+          <source>vipmosaicking</source>
+          <file>html/vipmosaicking.html</file>
+          <type>model</type>
+          <dependency>DSP System Toolbox, Simulink</dependency>
+       </demoitem>
+       <demoitem>
+          <label>Video Stabilization</label>
+          <source>vipstabilize</source>
+          <file>html/vipstabilize.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>   
+    </demosection>
+
+    <demosection>
+       <label>Enhancement</label>
+       <demoitem>
+          <label>Periodic Noise Reduction</label>
+          <source>vipstripes</source>
+          <file>html/vipstripes.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>   
+       <demoitem>
+          <label>Rotation Correction</label>
+          <source>viphough</source>
+          <file>html/viphough.html</file>
+          <type>model</type>
+          <dependency>Simulink</dependency>
+       </demoitem>
+    </demosection>
+
+    <demosection>
+      <label>Live Video Processing</label>
+      <demoitem>
+        <label>Barcode Recognition Using Live Video Acquisition</label>
+        <type>model</type>
+        <file>html/viplivebarcoderecognition.html</file>
+        <source>viplivebarcoderecognition</source>
+        <dependency>Simulink</dependency>
+        <dependency>Image Acquisition Toolbox</dependency>
+      </demoitem>
+      <demoitem>
+        <label>Edge Detection Using Live Video Acquisition</label>
+        <type>model</type>
+        <file>html/vipliveedgedetection.html</file>
+        <source>vipliveedgedetection</source>
+        <dependency>Simulink, Image Acquisition Toolbox</dependency>
+      </demoitem>
+    </demosection>
+
+    <demosection>
+      <label>HDL</label>
+      <demoitem>
+        <label>Noise Removal and Image Sharpening</label>
+        <type>model</type>
+        <file>html/NoiseRemovalAndSharpeningHDLExample.html</file>
+        <source>NoiseRemovalAndSharpeningHDLExample</source>
+        <dependency>Vision HDL Toolbox, HDL Coder</dependency>
+      </demoitem>
+    </demosection>
+
+</demosection>
+
+</demos>
+
+
+
